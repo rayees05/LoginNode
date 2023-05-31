@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="classnamecenter">
+        <form  id="myForm" action="/submited" method="post">
+            <label>User name</label>
+            <input type="text" id="username" name="username">
+            <label >Password</label>
+            <input type="password" id="password" name="password">
+            <input type="submit" >
+          </form>
+    </div>
+      <!-- <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting
+
+        // Get the input values
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        // Perform empty validation
+        if (username.trim() === '') {
+            alert('Please enter a username');
+            return;
+        }
+
+        if (password.trim() === '') {
+            alert('Please enter a password');
+            return;
+        }
+
+        // If all validations pass, submit the form or perform further actions
+        // For example, you can send the form data to the server using AJAX
+        // or perform any other desired actions here.
+
+        // Reset the form
+        document.getElementById('myForm').reset();
+        });
+
+      </script> -->
+</body>
+
+</html>
